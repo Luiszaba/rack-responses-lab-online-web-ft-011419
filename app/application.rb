@@ -5,7 +5,7 @@ class Application
     
     t = Time.hour
     
-    if t >= 12
+    if t > 12
     
     
       resp.write "Good Afternoon!"
