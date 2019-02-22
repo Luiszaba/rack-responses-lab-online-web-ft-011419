@@ -5,7 +5,7 @@ class Greeting
     
     datetime = Time.now
     
-    if Time.datetime > 12
+    if Time.datetime < 12
       resp.write "Good afternoon!"
     else 
       resp.write "Good morning!"
