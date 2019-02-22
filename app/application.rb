@@ -4,3 +4,6 @@ class Greeting
     resp = Rack::Response.new
     
     datetime = Time.now
+    
+    if Time.hour >12
+      puts "Good afternoon"
