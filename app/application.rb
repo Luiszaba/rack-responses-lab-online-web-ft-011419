@@ -5,5 +5,9 @@ class Greeting
     
     datetime = Time.now
     
-    if Time.hour >12
-      puts "Good afternoon"
+    if Time.datetime > 12
+      puts "Good afternoon!"
+    else 
+      puts "Good morning!"
+    end
+  end
