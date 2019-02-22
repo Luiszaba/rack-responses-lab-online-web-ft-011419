@@ -1,5 +1,7 @@
 class Greeting
   
   def call(env)
-    resp = Rack::Greeting.new
+    resp = Rack::Response.new
+    
+    
     if 
