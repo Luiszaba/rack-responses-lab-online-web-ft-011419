@@ -4,4 +4,5 @@ class Greeting
     resp = Rack::Response.new
     
     
-    if 
+    if datetime_select > 12:00
+      resp.write #{"Good Afternoon!"}
